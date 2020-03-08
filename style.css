@@ -1,0 +1,300 @@
+
+.navbar{
+	height: 80px;
+	background: white;
+	box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+
+}
+.icon-bar{
+	background: black;
+}
+.navbar-brand{
+	font-family: sans-serif,poppins;
+    font-size: 40px;
+    color: #1f1f1f;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    margin-top: 15px;
+    padding-left: 40px;
+}
+.navbar-collapse{
+	margin-top: 20px;
+}
+
+.navbar-nav{
+  	float: right;
+  	font-family: poppins,sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .6px;
+    color: #000;
+    
+  }
+
+li{
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	 
+}
+a{
+	color: black;
+}
+.navbar-nav li a i{
+	margin-top: -10px;
+}
+.sector1{
+	width: 100%;
+	height: 340px;
+	background: #F8F9FA;
+	display:block;
+}
+.under-s1{
+	width: 100%;
+	min-height:50px;
+	text-align: center;
+	margin-top: 170px;
+}
+.under-s1 h1{
+	font-family: poppins,sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 400;
+}
+.under-s12{
+	text-align: center;
+}
+.under-s12 a{
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+/* .line{
+	text-align: center;
+	height: 2px;
+	width: 100px;
+	background: #2250FC;
+} */
+/* .team-desc h3,p,span{
+	text-align: center;
+} */
+
+/* .team-desc p ,span{
+
+	margin-left: 26px;
+
+} */
+
+/* .team-desc p{
+	width: 200px;
+} */
+
+
+
+
+/* .under-s2{
+	margin-top: 50px;
+} */
+/* .under-s2 h1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+} */
+/* .under-s21{
+	width: 100px;
+	background: #2250FC;
+	height: 2px;
+	margin: auto;
+	padding: auto;
+	margin-top: 40px;
+} */
+/* .under-s22{
+	text-align: center;
+	margin-top: 20px;
+} */
+
+
+
+
+--------
+
+#team{
+	color: #1f1f1f;
+	font-weight: 500px;
+	font-size: 45px;
+}
+.het{
+	height: 2px;
+	width: 100px;
+	background: #17a2b8; 
+	text-align: center;
+	margin: auto;
+	padding: auto;
+}
+#name{
+	font-weight: 400;
+	font-size: 20px;
+	text-align: center;
+}
+#icon{
+	text-align: center;
+
+}
+.team-desc{
+	width: 200px;
+	margin: auto;
+}
+
+
+img{	
+	width: 255px;
+	height: 255px;
+	display: inline-block;
+	border-top-right-radius:2%; 
+	border-top-left-radius: 2%;
+	/* float: left; */
+	text-align: center;
+}
+/* .seperator {
+    color: #ccc;
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+    line-height: 1.2em;
+} */
+#name{
+	font-size: 16px;
+}
+
+.seperator {
+    color: #ccc;
+    width: 100%;
+    margin: 30px auto;
+    overflow: hidden;
+    text-align: center;
+    line-height: 3;
+}
+.seperator i{
+    margin: -10px 20px 0 24px;
+    display: inline-block;
+}
+.seperator i, .separator i {
+    font-size: 18px;
+}
+.fa{
+    font-weight: 300;
+}
+.fa{
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 3;
+}
+.seperator::before,.seperator::after{
+    border-bottom: 1px solid #eee;
+    content: "";
+    display: inline-block;
+    height: .65em;
+    margin: 0 -4px 0 -100%;
+    vertical-align: top;
+    width: 50%;
+}
+.seperator::after, .separator::after {
+    margin: 0 -100% 0 0;
+}
+
+#footer{
+	background: #F8F9FA;
+	width: 100%;
+	padding-bottom: 80px;
+	padding-top: 25px;
+}
+#footer li{
+	list-style-type: none;
+	margin-bottom: 10px;
+
+}
+#footer a{
+	text-decoration: none;
+}
+
+.mb-5 {
+	margin-left: -150px;
+}
+.widget-title{
+	color: #484848;
+	padding: 35px;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	letter-spacing: 1px;
+}
+.btn-inverted{
+	background:#0000FF;
+	color: white;
+	margin-left: 35px;
+	
+}
+.copyright-content{
+
+	background: #EFF1F4;
+	height: 90px;
+	width: 100%;
+}
+.copyright-text {
+	margin-top: 33px;
+}
+.scrollTop{
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	width: 40px;
+	height: 40px;
+	border-color: transparent;
+	border-radius: 50%;
+	background-color: #bfbfbf;
+	/* display: none; */
+}
+.scrollTop:hover,
+.scrollTop:focus{
+	
+	filter: brightness(1);
+	outline: none;
+	background: #2250FC;
+}
+
+.scrollTop:after{
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.scrollTop:after{
+	width: 8px;
+	height:8px;
+	transform: translate(-50%, -50% ) rotate(45deg);
+	border-top: 2px solid #f5f0f6;
+	border-left: 2px solid #f5f0f6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
